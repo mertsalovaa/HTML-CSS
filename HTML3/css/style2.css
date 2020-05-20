@@ -6,16 +6,12 @@ ul {
     margin-left: 10%;
 }
 
-.second {
+.circle {
     list-style-type: circle;
 }
 
-.third {
+.square {
     list-style-type: square;
-}
-
-.four {
-    list-style-type: circle;
 }
 
 ol {
@@ -24,4 +20,16 @@ ol {
 
 .abc {
    list-style-type: lower-latin; 
+}
+
+.ABC {
+    list-style-type: upper-latin;
+}
+
+.iii {
+    list-style-type: lower-roman;
+}
+
+.III {
+    list-style-type: upper-roman;
 }
