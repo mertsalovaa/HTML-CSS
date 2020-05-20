@@ -1,0 +1,57 @@
+/* для всього, універсальний селектор
+*{
+    властивість: значення;
+} */
+
+/* селектор 
+{
+    властивість: значення;
+} */
+
+body
+{
+   background-color: beige;
+   color: lightcoral;
+   /* margin: 20; */
+}
+
+p{
+    color: coral;
+    text-align: justify;
+    font-size: 16.5px;
+    text-indent: 7%;
+    word-spacing: 4px;
+    font-family: 'DM Mono', monospace;
+}
+
+h1{
+    text-align: center; /*вирівнювання тексту*/
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+i{
+    color:red;
+    font-weight: bold;
+}
+
+span{
+   color: purple;
+   font-weight: bold;
+   text-decoration: dotted underline rebeccapurple;
+}
+
+hr{
+    width: 300px;
+    height: 4px;
+    background: rosybrown;
+    border: none;
+}
+
+header{
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 50%;
+    margin: 50 0 50 0;
+}

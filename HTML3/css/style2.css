@@ -1,0 +1,27 @@
+h2 {
+    text-align: center;
+}
+
+ul {
+    margin-left: 10%;
+}
+
+.second {
+    list-style-type: circle;
+}
+
+.third {
+    list-style-type: square;
+}
+
+.four {
+    list-style-type: circle;
+}
+
+ol {
+    margin-left: 10%;
+}
+
+.abc {
+   list-style-type: lower-latin; 
+}
