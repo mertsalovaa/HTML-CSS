@@ -1,0 +1,78 @@
+body {
+    background: #eee6dc;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background: rgba(193, 158, 103, 1);
+    background: -moz-linear-gradient(left, rgba(193, 158, 103, 1) 0%, rgba(193, 158, 103, 1) 13%, rgba(240, 214, 175, 1) 51%, rgba(182, 141, 76, 1) 99%, rgba(182, 141, 76, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(193, 158, 103, 1)), color-stop(13%, rgba(193, 158, 103, 1)), color-stop(51%, rgba(240, 214, 175, 1)), color-stop(99%, rgba(182, 141, 76, 1)), color-stop(100%, rgba(182, 141, 76, 1)));
+    background: -webkit-linear-gradient(left, rgba(193, 158, 103, 1) 0%, rgba(193, 158, 103, 1) 13%, rgba(240, 214, 175, 1) 51%, rgba(182, 141, 76, 1) 99%, rgba(182, 141, 76, 1) 100%);
+    background: -o-linear-gradient(left, rgba(193, 158, 103, 1) 0%, rgba(193, 158, 103, 1) 13%, rgba(240, 214, 175, 1) 51%, rgba(182, 141, 76, 1) 99%, rgba(182, 141, 76, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(193, 158, 103, 1) 0%, rgba(193, 158, 103, 1) 13%, rgba(240, 214, 175, 1) 51%, rgba(182, 141, 76, 1) 99%, rgba(182, 141, 76, 1) 100%);
+    background: linear-gradient(to right, rgba(193, 158, 103, 1) 0%, rgba(193, 158, 103, 1) 13%, rgba(240, 214, 175, 1) 51%, rgba(182, 141, 76, 1) 99%, rgba(182, 141, 76, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#b68d4c', GradientType=1);
+    color: rgb(170, 123, 46);
+}
+
+h2 {
+    text-shadow: 2px 1px 0 rgb(180, 155, 100, 1), 1px 1px 0 rgb(58, 49, 31), 1px 1px 0 rgb(58, 49, 31), -1px -1px 0 rgb(190, 165, 110, 1);
+    color: #f3dbba;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    font-size: 27px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(182, 130, 50, 1);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+    color: rgba(170, 120, 60, 1);
+    margin: inherit;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-family: 'Vollkorn', serif;
+    color: rgba(182, 130, 50, 1);
+    font-size: 20px;
+}
+
+header {
+    border-radius: 0px 120px 0px 120px;
+    -moz-border-radius: 0px 120px 0px 120px;
+    -webkit-border-radius: 0px 120px 0px 120px;
+    border: 5px groove #bf7f00;
+    height: 320px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    font-style: italic;
+    color: rgb(146, 99, 28);
+    font-family: 'Inter', sans-serif;
+}
+
+blockquote {
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border: 6px groove #bf7f00;
+    font-size: 21px;
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Cormorant', serif;
+    color: rgb(175, 110, 31);
+    font-weight: bold;
+}
