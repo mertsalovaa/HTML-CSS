@@ -1,0 +1,114 @@
+.menu {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.menu li {
+    background-color: rgb(99, 145, 230);
+    padding: 0 40px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px rgb(149, 169, 206) solid;
+    margin-bottom: 1px;
+}
+
+/* .menu img {
+    margin: 3px 10px 0 10px;
+} */
+
+.menu a:hover {
+    background-color: rgb(39, 103, 221);
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../img1/css_sprites.png);
+}
+
+.icon-contact {
+    background-position: -24px 0;
+}
+
+.icon-help {
+    background-position: -48px 0;
+}
+
+.font-icons li {
+    background-color: rgb(18, 170, 170);
+}
+
+.font-icons .i {
+    color: blue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.font-icons a:hover i{
+    color: white;
+}
+
+.fa-my-inverse {
+    color: grey;
+    font-size: 16px;
+}
+
+.fa-my-circle {
+    color: darkgrey;
+    font-size: 17px;
+}
+
+.sub-menu {
+    display: none;
+    padding: 0;
+    list-style-type: none;
+    border-top : rgb(90, 17, 17);
+    border-bottom : rgb(97, 41, 41);
+}
+
+.sun-menu li {
+    padding: 0 0 0 20px;
+}
+
+.li-contact:hover .sub-menu {
+    display: block;
+}
+
+.horizontal {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;    
+}
+
+.horizontal li {
+    float: left;
+    width: 24.5%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    border-right: 1px outset darkcyan;
+}
+
+.horizontal a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.horizontal .li:last-child {
+    border: none;
+    width: 25.5%;
+    border-radius: 0 0 40px 0;
+}
+.horizontal a:hover {
+    background-color: darkcyan;
+}

@@ -1,0 +1,90 @@
+.img {
+    width: 200px;
+    border-radius: 50%;
+    /* форма кола*/
+    border: 2px inset lightsalmon;
+    box-shadow: -1px 2px 6px 1px brown;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.img-left {
+    width: 200px
+}
+
+.float-left {
+    float: left;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.float-left img:hover {
+    opacity: 0.5;
+}
+
+.float-right {
+    float: right;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+    width: 30%;
+    border: none;
+}
+
+.text-style {
+    text-align: justify;
+    line-height: 1.5;
+    color: limegreen;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: darkmagenta
+}
+
+.link:visited {
+    color: rgb(204, 7, 7);
+    font-style: oblique;
+}
+
+.link:hover {
+    background-color: palevioletred;
+    color: pink;
+    padding: 5px;
+}
+
+.link:active {
+    color: lightblue;
+    font-style: italic;
+}
+
+li a {
+    text-decoration: none;
+    color: violet;
+    font-size: 18px;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    background-color: rgb(243, 189, 243);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: lightpink;
+}
+
+li:hover a{
+    color: darkgoldenrod;
+}

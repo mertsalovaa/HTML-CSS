@@ -1,0 +1,80 @@
+h2 {
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    font-size: xx-large;
+}
+
+.menu1 {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu1 li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 4px;
+}
+
+.home {
+    background-color: rgb(6, 110, 6);
+}
+
+.gears {
+    background-color: rgb(233, 67, 94);
+}
+
+.bird {
+    background-color: rgb(100, 163, 236);
+}
+
+.flask {
+    background-color: rgb(199, 199, 49);
+}
+
+.email {
+    background-color: violet;
+}
+
+.menu2 {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;    
+}
+
+.menu2 li {
+    background-color: rgb(99, 145, 230);
+    padding: 0 40px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0 5px 0 5px;
+    margin-bottom: 2px;
+}
+
+.my-menu2-border {
+    list-style-type: none;
+    padding: 0;
+    width: 200px;
+}
+
+.my-menu2-border li {
+    background-color: rgb(99, 145, 230);
+    padding: 0 40px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 0 5px 0 5px;
+    margin-bottom: 2px;   
+}
