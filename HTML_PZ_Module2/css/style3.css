@@ -1,0 +1,18 @@
+.header {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: #0e494d;
+    color: white;
+    line-height: 30px;
+    padding-left: 35px;
+}
+
+.nav {
+    margin-left: 10px;
+    height: auto;
+    background-color: #1f6066;
+    color: white;
+    line-height: auto;
+    padding-left: 5px;
+}
