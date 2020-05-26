@@ -1,0 +1,27 @@
+.weather li{
+list-style-type: none;
+}
+
+.list-winter {    
+color: rgb(54, 125, 218);
+}
+
+.list-spring {
+color: rgb(221, 103, 123);
+}
+
+.list-summer {
+    color: rgba(255, 238, 0, 0.925);
+}
+
+.list-autumn {
+    color: orangered;
+}
+
+i {
+    margin-right: 4px;
+}
+
+.arrow-color {
+    color: rgb(9, 73, 68);
+}

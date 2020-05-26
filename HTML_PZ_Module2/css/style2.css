@@ -1,0 +1,43 @@
+.list-roman {
+    list-style-type: none;
+    counter-reset: roman-counter;
+    color: rgb(111, 111, 243);
+}
+
+.list-roman li {
+    counter-increment: roman-counter;
+}
+
+.list-roman li::before {
+    content: counter(roman-counter, upper-roman)". ";
+    color: black;
+    font-weight: bold;
+}
+
+.list-digits {
+    list-style-type: none;
+    counter-reset: digits-counter;
+    color: rgb(121, 121, 235);
+}
+
+.list-digits li {
+    counter-increment: digits-counter;
+}
+
+.list-digits li::before {
+    content: counter(digits-counter)". ";
+}
+
+.list-letters {
+    list-style-type: none;
+    counter-reset: letter-counter;
+    color: rgb(160, 160, 248);
+}
+
+.list-letters li {
+    counter-increment: letter-counter;
+}
+
+.list-letters li::before {
+    content: counter(letter-counter, lower-alpha)". ";
+}
