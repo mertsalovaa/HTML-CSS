@@ -1,0 +1,121 @@
+.menu1 {
+    list-style-type: none;
+    /* overflow: hidden; */
+    padding: 0;
+    margin-left: 35%;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-left: 2%;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: white;
+    height: 80px;
+    display: block;
+}
+
+.menu1 li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    width: 70px;
+    color: white;
+}
+
+.home {
+    background-color: #d16503;
+}
+
+.services {
+    background-color: #e9931a;
+}
+
+.portfolio {
+    background-color: #1691bd;
+}
+
+.blog {
+    background-color: #166ba2;
+}
+
+.team {
+    background-color: #1b3647;
+}
+
+.contact {
+    background-color: #152836;
+}
+
+i.fa-home {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #e48227;
+    padding: 10px 10px;
+}
+
+i.fa-flask {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #f3a73d;
+    padding: 10px 12px;
+}
+
+i.fa-paint-brush {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #34a7d1;
+    padding: 10px 10px;
+}
+
+i.fa-paint-brush {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #34a7d1;
+    padding: 10px 10px;
+}
+
+i.fa-clipboard-check {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #2f84bd;
+    padding: 10px 14px;
+}
+
+i.fa-user-friends {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #2a4f66;
+    padding: 10px 10px;
+}
+
+i.fa-envelope {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #24465e;
+    padding: 10px 12px;
+}
+
+
+
+.menu2 li {
+    margin-top: 250;
+    list-style-type: none;
+    background-color: #3f3f3f;
+    color: white;
+    text-align: left;
+    padding-left: 2%;
+    height: 30px;
+    line-height: 30px;
+    width: 30%;
+    border: black solid 1px;
+}
+
+.menu2 li:hover {
+    background-color: red;
+}
