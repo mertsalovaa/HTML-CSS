@@ -1,0 +1,43 @@
+body, h1 {
+    margin: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(58, 211, 211);
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu {
+    height: 40px;
+    background-color: rgb(178, 127, 224);
+}
+
+.sidebar {
+    width: 20%;
+    background-color: rgb(177, 14, 177);
+height: 300px;
+float:left;
+}
+
+.aside {
+    background-color: rgb(197, 82, 82);
+width: 20%;
+height: 200px;
+float: right;}
+
+.main {
+background-color: rgb(223, 118, 174);
+height: 100px;
+width: 60%;
+margin: 0 auto;
+}
+
+.footer {
+    background-color: rgb(236, 133, 147);
+height: 100px;
+clear: left;
+}

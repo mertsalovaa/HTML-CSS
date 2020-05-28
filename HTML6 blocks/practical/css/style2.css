@@ -1,0 +1,50 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    padding: 30px 10px 10px 10px;
+    height: 30px;
+    background-color: wheat;
+}
+
+.nav {
+    background-color: tomato;
+    height: 30px;
+}
+
+.section-one {
+    margin-top: 4px;
+    padding: 10px;
+    float: left;
+    width: 60%;
+    background-color: rgb(236, 186, 162);
+}
+
+.article {   
+    margin-top: 3px; 
+    background-color: rgb(235, 233, 147);
+    height: 100px;
+}
+
+.aside-one {
+    margin-top: 4px;
+    padding: 10px;
+    float: right;
+    width: 33%;
+    height: 206px;
+    background-color: lightpink;
+}
+
+.section {
+    margin-top: 3px;
+    background-color: rgb(240, 136, 153);
+    height: 100px;
+}
+
+.footer {
+    margin-top: 232px;
+    background-color: rgb(240, 177, 152);
+    height: 40px;
+}

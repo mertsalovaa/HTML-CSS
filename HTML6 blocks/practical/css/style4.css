@@ -1,0 +1,19 @@
+body {
+    background-color: red;;
+}
+
+.orange {
+    margin-top: 0.5%;
+    height: 613px;
+    width: 15%;
+    background-color: orange;
+    float: left;
+}
+
+.yellow {
+    margin: 0.5%;
+    height: 200px;
+    width: 84%;
+    background-color: yellow;
+    float: right;
+}

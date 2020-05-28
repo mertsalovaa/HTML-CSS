@@ -1,0 +1,53 @@
+body,
+ul {
+    margin: 0;
+}
+
+header {
+    background-color: #b0a3a9;
+}
+
+.container {
+    max-width: 1137px;
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    text-align: right;
+}
+
+.logo {
+    height: inherit;
+    line-height: 120px;
+    float: left;
+}
+
+ .banner {   
+     background-color: #f4f4f4; 
+height: 800px;
+padding-left: 450px;
+}
+
+.menu {
+    list-style-type: none;
+    margin-right: 140px;
+    height: inherit;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #7a6666;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline-block;
+    line-height: 120px;
+    margin-left: 5%;
+}
+
+.menu a:hover {
+    color: #cb3362;
+}
