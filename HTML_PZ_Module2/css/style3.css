@@ -16,3 +16,13 @@
     line-height: auto;
     padding-left: 5px;
 }
+
+.sup1 {
+    font-weight: bold;
+    color: lightslategrey;
+}
+
+.sup2 {
+    font-weight: bolder;
+    color: grey;
+}
