@@ -1,0 +1,106 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    word-wrap: wrap;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #c9ffef;
+}
+
+.headerP {
+    margin: auto;
+    color: #716dcc;
+}
+
+.headerLink p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.headerLink {
+    background-color: #716dcc;
+    width: 35%;
+    height: 50%;
+}
+
+.siteNav {
+    background-color: #716dcc;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    margin-top: -17px;
+}
+
+.main1 {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 400px;
+    flex-direction: column;
+    background-color: #c9ffef;
+}
+
+.categoryList {
+    margin-top: 2px;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    font-size: 14px;
+    background-color: #716dcc;
+}
+
+.callout {
+    margin-top: 2px;
+    width: 100%;
+    height: 50px;
+    background-color: #716dcc;
+}
+
+.compareProd {
+    margin-top: 2px;
+    width: 100%;
+    height: 70px;
+    background-color: #716dcc;
+}
+
+.main2 {
+    margin-top: 2px;
+    width: 67%;
+    height: 400px;
+    background-color: #c9ffef;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.productList {
+    background-color: #716dcc;
+    width: 100%;
+    height: 260px;
+    line-height: 260px;
+}
+
+.subCategoryList {
+    margin-top: 2px;
+    background-color: #716dcc;
+    width: 100%;
+    height: 135px;
+    line-height: 140px;
+}
+
