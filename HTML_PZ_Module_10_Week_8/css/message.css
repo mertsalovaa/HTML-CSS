@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+div {
+    background: transparent;
+    border-radius: 5px;
+    width: 900px;
+    height: 800px;
+    padding: 80px;
+    box-shadow: 1px 2px 2px 2px black;
+}
+
+form input {
+    font-family: 'Inconsolata', monospace;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    width: 310px;
+    height: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 2px 1px rgb(150, 149, 149);
+    border-radius: 2px;
+}
+
+form input[type=email] {
+    width: 640px;
+}
+
+form input[type=tel] {
+    width: 185px;
+    margin-left: 33px;
+}
+
+form p {
+    font-size: 35px;
+}
+
+form select {
+    height: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 2px 1px rgb(150, 149, 149);
+    border-radius: 2px;
+    width: 610px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+}
+
+form textarea {
+    margin-left: 100px;
+    margin-top: -20px;
+    width: 650px;
+    height: 188px;
+}
+
+form fieldset {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+hr {
+    width: 700px;
+    height: 5px;
+    color: white;
+    box-shadow: 1px 1px 2px 1px rgb(128, 128, 128);
+    background-color: white;
+}
+
+form button {
+    margin-left: 20px;
+    height: 40px;
+    width: 700px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+}
