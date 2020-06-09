@@ -1,0 +1,154 @@
+body {
+    margin: 0 auto;
+    width: 1500px;
+    background-color: #ebe9ed;
+}
+header {
+    width: 100%;
+
+    .main {
+        max-width: 1137px;
+        width: 100%;
+        margin: 0 auto;
+        height: 60px;
+        text-align: right;
+
+        .logo {
+            height: inherit;
+            line-height: 60px;
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-right: 140px;
+            height: inherit;
+
+            li {
+                display: inline-block;
+                line-height: 60px;
+                margin-left: 5%;
+            }
+            a {
+                text-decoration: none;
+                color: #7a6666;
+                font-family: Lato;
+                font-size: 15px;
+                font-weight: 400;
+                text-transform: uppercase;
+
+                a:hover {
+                    color: #cb3362;
+                }
+            }
+        }
+    }
+}
+
+.banner {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.title {
+    width: 553px;
+    height: 137px;
+    margin-left: 200px;
+    margin-top: 30px;
+    float: left;
+    background-color: #ebe9ed;
+
+    .newProd {
+        width: 553px;
+        height: 137px;
+        color: #4c4b45;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .titleYougurt {
+        color: #e32a62;
+        font-family: Magra;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: -100px;
+    }
+
+    p {
+        color: #7a6666;
+        font-family: "Roboto - Regular";
+        font-size: 14px;
+        font-weight: 200px;
+    }
+}
+
+.malina {
+    width: 312px;
+    height: 208px;
+    float: right;
+    margin-right: 300px;
+}
+
+.menu2 {
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background-color: #c8c10d;
+    float: left;
+
+    ul {
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 400px;
+
+        li {
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            width: 50px;
+            margin-right: 100px;
+        }
+    }
+}
+
+.menu3 {
+    background-color: #cb3362;
+    width: 100%;
+    float: left;
+    height: 150px;
+
+    ul {
+        list-style-type: none;
+        margin-top: 15px;
+        float: left;
+        margin-left: 550px;
+
+        li {
+            float: left;
+            height: 100px;
+            line-height: 100px;
+            width: 100px;
+
+            a {
+                color: white;
+            }
+
+            a:visited {
+                color: white;
+            }
+
+            a:hover {
+                color: rgb(236, 224, 200);
+            }
+        }
+    }
+
+    p {
+        margin-left: 50px;
+        color: white;
+    }
+}
