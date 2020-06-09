@@ -89,6 +89,6 @@ body {
     flex-direction: column;
 }
 
-input [type="submit"] {
-    
+.submit {
+    background:transparent;
 }
